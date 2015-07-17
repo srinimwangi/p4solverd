@@ -1,0 +1,20 @@
+foundational,course_code,course_number,section,campus,basis,credits,title,attributes
+1,CSE,6220,O01,O,ALP,3,High Perform Computing,
+0,CSE,8803,O01,O,ALP,3,Special Topics: Big Data for Health Informatics,
+1,CS,4495,O01,O,ALP,3,Computer Vision,"GRVS, INSY, TCES"
+0,CS,6035,O01,O,ALP,3,Intro To Info Security,
+1,CS,6210,O01,O,ALP,3,Adv Operating Systems,
+1,CS,6250,O01,O,ALP,3,Computer Networks,
+1,CS,6290,O01,O,ALP,3,High Perform Comput Arch,
+1,CS,6300,O01,O,ALP,3,Software Dev Process,
+1,CS,6310,O01,O,ALP,3,Software Arch & Design,
+0,CS,6440,O01,O,ALP,3,Intro Health Informatics,
+0,CS,6475,O01,O,ALP,3,Comp. Photography,
+1,CS,6505,O01,O,ALP,3,Computability&Algorithms,THRY
+1,CS,7637,O01,O,ALP,3,Knowledge-Based AI,
+1,CS,7641,O01,O,ALP,3,Machine Learning,
+0,CS,7646,O01,O,ALP,3,Mach Learn For Trading,
+0,CS,8802,O01,O,ALP,2,Special Topics: Robotic Car,
+0,CS,8803,O01,O,ALP,3,Special Topics: Robotic Car,
+1,CS,8803,O02,O,ALP,3,Special Topics: Intro OS,
+0,CS,8803,O03,O,ALP,3,Special Topics: Reinforcement Learning,

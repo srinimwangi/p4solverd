@@ -1,0 +1,21 @@
+Version,,,,,,,,,,,,,,,,,,
+201508,,,,,,,,,,,,,,,,,,
+CRN,Subj,Crse,Sec,Cmp,Bas,Cred,Title,Days,Time,Cap,Act,Rem,WL Cap,WL Act,WL Rem,Instructor,Location,Attribute
+91419,CSE,6220,O01,O,ALP,3,High Perform Computing,,TBA,200,83,117,100,0,100,"Vuduc, R. (P)",TBA,
+91420,CSE,8803,O01,O,ALP,3,Special Topics: Big Data for Health Informatics,,TBA,200,95,105,100,0,100,"Sun, J. (P)",TBA,
+91422,CS,4495,O01,O,ALP,3,Computer Vision,,TBA,200,72,128,100,0,100,"Essa, I. (P)",TBA,"GRVS, INSY, TCES"
+91416,CS,6035,O01,O,ALP,3,Intro To Info Security,,TBA,200,200,0,100,88,12,"Lee, W. (P), Ahamad, M.",TBA,
+90091,CS,6210,O01,O,ALP,3,Adv Operating Systems,,TBA,200,124,76,100,0,100,"Ramachandran, U. (P)",TBA,
+90092,CS,6250,O01,O,ALP,3,Computer Networks,,TBA,200,198,0,100,2,98,TBA,TBA,
+90096,CS,6290,O01,O,ALP,3,High Perform Comput Arch,,TBA,200,41,159,100,0,100,"Prvulovic, M. (P)",TBA,
+90093,CS,6300,O01,O,ALP,3,Software Dev Process,,TBA,200,199,0,100,72,28,"Orso, A. (P)",TBA,
+90097,CS,6310,O01,O,ALP,3,Software Arch & Design,,TBA,200,159,41,100,0,100,"Feron, E. (P)",TBA,
+90098,CS,6440,O01,O,ALP,3,Intro Health Informatics,,TBA,200,163,37,100,0,100,"Braunstein, M. (P)",TBA,
+91414,CS,6475,O01,O,ALP,3,Comp. Photography,,TBA,200,73,127,100,0,100,"Essa, I. (P)",TBA,
+90099,CS,6505,O01,O,ALP,3,Computability&Algorithms,,TBA,200,200,0,100,100,0,TBA,TBA,THRY
+90100,CS,7637,O01,O,ALP,3,Knowledge-Based AI,,TBA,200,189,11,100,0,100,"Goel, A. (P)",TBA,
+90094,CS,7641,O01,O,ALP,3,Machine Learning,,TBA,200,200,0,100,81,19,"Isbell, C. (P)",TBA,
+91417,CS,7646,O01,O,ALP,3,Mach Learn For Trading,,TBA,400,268,132,100,0,100,"Balch, T. (P)",TBA,
+90095,CS,8803,O01,O,ALP,3,Special Topics: Robotic Car,,TBA,200,125,75,100,0,100,"Thrun, S. (P), Pryby, C.",TBA,
+91415,CS,8803,O02,O,ALP,3,Special Topics: Intro OS,,TBA,200,177,23,100,0,100,"Gavrilovska, A. (P)",TBA,
+91418,CS,8803,O03,O,ALP,3,Special Topics: Reinforcement Learning,,TBA,200,110,90,100,0,100,"Isbell, C. (P), Littman, M.",TBA,

@@ -1,0 +1,110 @@
+Version,Specialization,,
+201402,Computational Perception and Robotics,,
+Subj,Crse,Sec,Title
+CS,6505,O01,"Computability, Algorithms, and Complexity"
+CS,6520,O01,Computational Complexity Theory
+CS,6550,O01,Design and Analysis of Algorithms
+CS,7520,O01,Approximation Algorithms
+CS,7530,O01,Randomized Algorithms
+CSE,6140,O01,Computational Science and Engineering Algorithms
+CS,6601,O01,Artificial Intelligence
+CS,7641,O01,Machine Learning
+CS,6475,O01,Computational Photography
+CS,7495,O01,Computer Vision
+CS,7499,O01,3D Reconstruction
+CS,7636,O01,Computational Perception
+CS,8803,GCV,Special Topics: Multiview Geometry in Computer Vision
+CS,7630,O01,Autonomous Robotics
+CS,7631,O01,Autonomous Multi-Robot Systems
+CS,7633,O01,Human-Robot Interaction
+CS,7649,O01,Robot Intelligence: Planning
+CS,8803,O01,Artificial Intelligence for Robotics
+Version,Specialization,,
+201402,Databases & Software Engineering,,
+Subj,Crse,Sec,Title
+CS,6505,O01,"Computability, Algorithms, and Complexity"
+CS,6210,O01,Advanced Operating Systems
+CS,6241,O01,Design and Implementation of Compilers
+CS,6290,O01,High-Performance Computer Architecture
+CS,8803,O02,Special Topics: Graduate Introduction to Operating Systems
+CS,6300,O01,Software Development Process
+CS,6310,O01,Software Architecture and Design
+CS,6340,O01,Software Analysis and Testing
+CS,6365,O01,Introduction to Enterprise Computing
+CS,6400,O01,Database Systems Concepts and Design
+CS,6422,O01,Database System Implementation
+CS,6675,O01,Advanced Internet Computing Systems and Applications
+CS,8803,FPL,Special Topics: Foundations of Programming Languages
+Version,Specialization,,
+201402,High-Performance Computing,,
+Subj,Crse,Sec,Title
+CSE,6140,O01,Computational Science and Engineering Algorithms
+CSE,6220,O01,High Performance Computing
+CSE,6221,O01,Multicore Computing: Concurrency and Parallelism on the Desktop
+CSE,6230,O01,High-Performance Parallel Computing: Tools and Applications
+CS,6241,O01,Compiler Design
+CS,6290,O01,High-Performance Computer Architecture
+CSE,8803,PNA,Special Topics: Parallel Numerical Algorithms
+CSE,6236,O01,Parallel and Distributed Simulation
+CSE,8803,TPC,Special Topics: Hot Topics in Parallel Computing
+Version,Specialization,,
+201402,Interactive Intelligence,,
+Subj,Crse,Sec,Title
+CS,6601,O01,Artificial Intelligence
+CS,7620,O01,Case-Based Reasoning
+CS,7637,O01,Knowledge-Based AI
+CS,7641,O01,Machine Learning
+CS,6440,O01,Introduction to Health Informatics
+CS,6460,O01,Educational Technology: Conceptual Foundations
+CS,6465,O01,Computational Journalism
+CS,7634,O01,AI Storytelling in Virtual Worlds
+CS,7650,O01,Natural Language
+CS,8803,AGA,Special Topics: Advanced Game AI
+CS,4752,O01,Philosophical Issues in Computation
+CS,4793,O01,Integrative Perspectives in Cognitive Science
+CS,6795,O01,Introduction to Cognitive Science
+CS,7610,O01,Modeling and Design
+CS,7697,O01,Cognitive Models of Science and Technology
+CS,8893,O01,Special Topics in Cognitive Science
+Version,Specialization,,
+201402,Machine Learning,,
+Subj,Crse,Sec,Title
+CS,6505,O01,"Computability, Algorithms, and Complexity"
+CS,6520,O01,Computational Complexity Theory
+CS,6550,O01,Design and Analysis of Algorithms
+CS,7510,O01,Graph Algorithms
+CS,7520,O01,Approximation Algorithms
+CS,7530,O01,Randomized Algorithms
+CSE,6140,O01,Computational Science and Engineering Algorithms
+CS,7641,O01,Machine Learning
+CSE,6740,O01,"Computational Data Analysis: Learning, Mining, and Computation"
+CS,7616,O01,Pattern Recognition
+CS,7646,O01,Machine Learning for Trading
+CS,8803,MLT,Special Topics: Machine Learning Theory
+CS,8803,MLF,Special Topics: Machine Learning for Finance
+CSE,6240,O01,Web Search and Text Mining
+CSE,6242,O01,Data and Visual Analytics
+Version,Specialization,,
+201402,Networking,,
+Subj,Crse,Sec,Title
+CS,6250,O01,Computer Networks
+CS,6505,O01,"Computability, Algorithms, and Complexity"
+CS,6210,O01,Advanced Operating Systems
+CS,6290,O01,High-Performance Computer Architecture
+CS,6262,O01,Network Security
+CS,6675,O01,Advanced Internet Computing Systems and Applications
+CS,7260,O01,Internetworking Architectures and Protocols
+CS,7270,O01,Networked Applications and Services
+Version,Specialization,,
+201402,Systems,,
+Subj,Crse,Sec,Title
+CS,6210,O01,Advanced Operating Systems
+CS,6505,O01,"Computability, Algorithms, and Complexity"
+CS,6238,O01,Secure Computer Systems
+CS,6241,O01,Design and Implementation of Compilers
+CS,6250,O01,Computer Networks
+CS,6290,O01,High-Performance Computer Architecture
+CS,6235,O01,Real-Time System Concepts and Implementation
+CS,6365,O01,Introduction to Enterprise Computing
+CS,6675,O01,Advanced Internet Computing Systems and Applications
+CS,7210,O01,Distributed Computing

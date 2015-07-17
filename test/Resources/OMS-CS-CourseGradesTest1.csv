@@ -1,0 +1,99 @@
+ANON_ID,Term,Course Code,Course Number,Course Reference Number,Course Title,Grade
+"53,035,889",201408,CS,6250,91371,Computer Networks,
+"53,035,889",201408,CS,7641,91373,Machine Learning,
+"53,035,889",201502,CS,6210,29168,Adv Operating Systems,
+"53,035,889",201502,CS,7637,30541,Knowledge-Based AI,
+"53,042,193",201405,CS,6250,56616,Computer Networks,
+"53,042,193",201405,CS,6300,56615,Software Dev Process,
+"53,042,193",201408,CS,6310,91376,Software Arch & Design,
+"53,042,193",201408,CS,6505,91378,Computability&Algorithms,
+"53,042,193",201502,CS,6440,30539,Intro Health Informatics,
+"53,042,193",201502,CS,8803,30545,Special Topics,
+"53,052,056",201405,CS,6250,56616,Computer Networks,W
+"53,052,056",201502,CS,6250,29169,Computer Networks,
+"53,057,225",201408,CS,6310,91376,Software Arch & Design,
+"53,057,225",201408,CS,8803,91374,Special Topics,
+"53,057,225",201502,CS,6300,29170,Software Dev Process,
+"53,057,225",201502,CS,6475,30544,Comp. Photography,
+"53,057,225",201502,CS,8803,30545,Special Topics,
+"53,057,743",201502,CS,7641,29171,Machine Learning,
+"53,057,901",201402,CS,6210,30387,Adv Operating Systems,W
+"53,057,901",201402,CS,8802,30391,Special Topics,
+"53,057,901",201405,CS,6250,56616,Computer Networks,
+"53,057,901",201408,CS,6300,91372,Software Dev Process,
+"53,057,901",201502,CS,4495,30543,Computer Vision,
+"53,057,956",201502,CS,8803,30545,Special Topics,
+"53,058,793",201408,CS,6300,91372,Software Dev Process,
+"53,058,793",201502,CS,6250,29169,Computer Networks,
+"53,058,793",201502,CS,8803,30542,Special Topics,
+"53,059,594",201408,CS,6300,91372,Software Dev Process,
+"53,059,594",201502,CS,6310,30538,Software Arch & Design,
+"53,059,594",201502,CS,6505,30540,Computability&Algorithms,W
+"53,061,714",201405,CS,6300,56615,Software Dev Process,
+"53,061,714",201408,CS,6250,91371,Computer Networks,
+"53,061,714",201408,CS,6440,91377,Intro Health Informatics,
+"53,061,714",201502,CS,6475,30544,Comp. Photography,
+"53,061,714",201502,CS,8803,30545,Special Topics,
+"53,062,793",201502,CS,6505,30540,Computability&Algorithms,W
+"53,063,186",201405,CS,6250,56616,Computer Networks,
+"53,063,186",201408,CS,6300,91372,Software Dev Process,W
+"53,063,186",201502,CS,8803,30545,Special Topics,
+"53,064,629",201408,CS,6300,91372,Software Dev Process,
+"53,064,629",201408,CS,6310,91376,Software Arch & Design,
+"53,064,629",201502,CS,6250,29169,Computer Networks,
+"53,066,488",201502,CS,6300,29170,Software Dev Process,
+"53,066,488",201502,CS,6310,30538,Software Arch & Design,
+"53,066,663",201402,CS,6210,30387,Adv Operating Systems,W
+"53,066,663",201402,CS,6300,30389,Software Dev Process,
+"53,066,663",201408,CS,6310,91376,Software Arch & Design,W
+"53,066,663",201408,CS,6505,91378,Computability&Algorithms,W
+"53,066,663",201502,CS,6310,30538,Software Arch & Design,
+"53,067,063",201502,CS,6300,29170,Software Dev Process,
+"53,067,063",201502,CS,8803,30545,Special Topics,
+"53,068,137",201402,CS,6300,30389,Software Dev Process,
+"53,068,137",201408,CS,6310,91376,Software Arch & Design,
+"53,068,137",201502,CS,6290,30537,High Perform Comput Arch,
+"53,085,355",201502,CS,4495,30543,Computer Vision,
+"53,089,728",201402,CS,7641,30390,Machine Learning,
+"53,089,728",201405,CS,6250,56616,Computer Networks,
+"53,089,728",201408,CS,7637,91379,Knowledge-Based AI,
+"53,089,728",201502,CS,4495,30543,Computer Vision,
+"53,093,573",201502,CS,4495,30543,Computer Vision,
+"53,097,450",201408,CS,7637,91379,Knowledge-Based AI,
+"53,097,450",201502,CS,7641,29171,Machine Learning,W
+"53,113,605",201402,CS,7641,30390,Machine Learning,
+"53,113,605",201405,CS,6250,56616,Computer Networks,
+"53,113,605",201408,CS,7637,91379,Knowledge-Based AI,
+"53,113,605",201502,CS,4495,30543,Computer Vision,
+"53,113,792",201502,CS,7641,29171,Machine Learning,
+"53,224,379",201408,CS,6505,91378,Computability&Algorithms,
+"53,224,379",201408,CS,7637,91379,Knowledge-Based AI,
+"53,224,379",201502,CS,4495,30543,Computer Vision,
+"53,224,379",201502,CS,7641,29171,Machine Learning,
+"53,236,824",201502,CS,6250,29169,Computer Networks,
+"53,252,020",201405,CS,6300,56615,Software Dev Process,
+"53,252,020",201408,CS,6250,91371,Computer Networks,W
+"53,252,020",201502,CS,4495,30543,Computer Vision,W
+"53,252,020",201502,CS,6475,30544,Comp. Photography,W
+"53,256,161",201408,CS,6300,91372,Software Dev Process,W
+"53,262,857",201402,CS,6300,30389,Software Dev Process,W
+"53,262,857",201405,CS,6300,56615,Software Dev Process,
+"53,262,857",201408,CS,6310,91376,Software Arch & Design,W
+"53,262,857",201408,CS,6505,91378,Computability&Algorithms,
+"53,262,857",201502,CS,6250,29169,Computer Networks,W
+"53,268,106",201408,CS,6250,91371,Computer Networks,W
+"53,270,877",201402,CS,6250,30388,Computer Networks,
+"53,270,877",201402,CS,6300,30389,Software Dev Process,
+"53,270,877",201405,CS,8803,56617,Special Topics,
+"53,270,877",201502,CS,6440,30539,Intro Health Informatics,
+"53,272,281",201408,CS,6505,91378,Computability&Algorithms,
+"53,272,281",201502,CS,7641,29171,Machine Learning,
+"53,278,726",201502,CS,6300,29170,Software Dev Process,
+"53,280,525",201502,CS,6300,29170,Software Dev Process,W
+"53,288,325",201502,CS,6290,30537,High Perform Comput Arch,W
+"53,288,325",201502,CS,8803,30545,Special Topics,W
+"53,304,595",201502,CS,6210,29168,Adv Operating Systems,W
+"53,304,595",201502,CS,6300,29170,Software Dev Process,
+"53,305,448",201405,CS,6300,56615,Software Dev Process,
+"53,305,448",201502,CS,6310,30538,Software Arch & Design,W
+"53,308,840",201502,CS,6505,30540,Computability&Algorithms,

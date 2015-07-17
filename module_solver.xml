@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project title="module_solver" default="compile.module.solver">
+  <dirname property="module.solver.basedir" file="${ant.file.module_solver}"/>
+  
+  <property title="module.jdk.home.solver" value="${project.jdk.home}"/>
+  <property title="module.jdk.bin.solver" value="${project.jdk.bin}"/>
+  <property title="module.jdk.classpath.solver" value="${project.jdk.classpath}"/>
+  
+  <property title="compiler.args.solver" value="-encoding UTF-8 -source 8 ${compiler.args}"/>
+  
+  <property title="solver.output.dir" value="${module.solver.basedir}/target/classes"/>
+  <property title="solver.testoutput.dir" value="${module.solver.basedir}/target/test-classes"/>
+  
+  <path id="solver.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="solver.module.production.classpath">
+    <path refid="${module.jdk.classpath.solver}"/>
+    <path refid="library.maven:_io.vertx:vertx-platform:2.1.5.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-core:2.1.5.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.6.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.2.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.2.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.2.2.classpath"/>
+    <path refid="library.maven:_io.netty:netty-all:4.0.21.final.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.16.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_com.google.code.gson:gson:2.3.1.classpath"/>
+    <pathelement location="${basedir}/lib/gurobi.jar"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpclient:4.4.1.classpath"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpcore:4.4.1.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.2.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.9.classpath"/>
+  </path>
+  
+  <path id="solver.runtime.production.module.classpath">
+    <pathelement location="${solver.output.dir}"/>
+    <path refid="library.maven:_io.vertx:vertx-platform:2.1.5.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-core:2.1.5.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.6.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.2.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.2.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.2.2.classpath"/>
+    <path refid="library.maven:_io.netty:netty-all:4.0.21.final.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.16.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_com.google.code.gson:gson:2.3.1.classpath"/>
+    <pathelement location="${basedir}/lib/gurobi.jar"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpclient:4.4.1.classpath"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpcore:4.4.1.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.2.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.9.classpath"/>
+  </path>
+  
+  <path id="solver.module.classpath">
+    <path refid="${module.jdk.classpath.solver}"/>
+    <pathelement location="${solver.output.dir}"/>
+    <path refid="library.maven:_io.vertx:vertx-platform:2.1.5.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-core:2.1.5.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.6.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.2.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.2.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.2.2.classpath"/>
+    <path refid="library.maven:_io.netty:netty-all:4.0.21.final.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.16.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_com.google.code.gson:gson:2.3.1.classpath"/>
+    <pathelement location="${basedir}/lib/gurobi.jar"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpclient:4.4.1.classpath"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpcore:4.4.1.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.2.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.9.classpath"/>
+  </path>
+  
+  <path id="solver.runtime.module.classpath">
+    <pathelement location="${solver.testoutput.dir}"/>
+    <pathelement location="${solver.output.dir}"/>
+    <path refid="library.maven:_io.vertx:vertx-platform:2.1.5.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-core:2.1.5.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.6.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.2.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.2.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.2.2.classpath"/>
+    <path refid="library.maven:_io.netty:netty-all:4.0.21.final.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.16.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_com.google.code.gson:gson:2.3.1.classpath"/>
+    <pathelement location="${basedir}/lib/gurobi.jar"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpclient:4.4.1.classpath"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpcore:4.4.1.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.2.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.9.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.solver">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.solver">
+    <patternset refid="excluded.from.module.solver"/>
+  </patternset>
+  
+  <path id="solver.module.sourcepath">
+    <dirset dir="${module.solver.basedir}">
+      <include title="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target title="compile.module.solver" depends="compile.module.solver.production,compile.module.solver.tests" description="Compile module Solver"/>
+  
+  <target title="compile.module.solver.production" depends="register.custom.compilers" description="Compile module Solver; production classes">
+    <mkdir dir="${solver.output.dir}"/>
+    <javac2 destdir="${solver.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.solver}/javac">
+      <compilerarg line="${compiler.args.solver}"/>
+      <bootclasspath refid="solver.module.bootclasspath"/>
+      <classpath refid="solver.module.production.classpath"/>
+      <src refid="solver.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.solver"/>
+    </javac2>
+    
+    <copy todir="${solver.output.dir}">
+      <fileset dir="${module.solver.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target title="compile.module.solver.tests" depends="register.custom.compilers,compile.module.solver.production" description="compile module Solver; test classes" unless="skip.tests"/>
+  
+  <target title="clean.module.solver" description="cleanup module">
+    <delete dir="${solver.output.dir}"/>
+    <delete dir="${solver.testoutput.dir}"/>
+  </target>
+</project>
